@@ -1,3 +1,5 @@
+import { Regis } from "../register/regis";
+
 export class Startup {
     startId!: number;
 	companyName!: string;
@@ -8,4 +10,5 @@ export class Startup {
 	totalValuation!: number;
 	services!: string;
 	description!: string;
+	user !: Regis;
 }

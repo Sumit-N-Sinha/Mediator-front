@@ -1,0 +1,25 @@
+<app-start-header></app-start-header>
+<div class="container">
+    <table class="table ">
+        <thead class="table-dark">
+            <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Employee Skill</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of inv">
+                <td>{{product.invId}}</td>
+                <td>{{product.user.name}}</td>
+                <td>{{product.emailId}}</td>
+                <!-- <td>
+                    <button type="button" (click)="del(product.id)" >Del</button>
+                </td>
+                <td>
+                    <button type="button" (click)="upd(product.id)">Update</button>
+                </td> -->
+            </tr>
+        </tbody>
+    </table>
+    </div>

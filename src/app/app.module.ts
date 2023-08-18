@@ -13,6 +13,9 @@ import { RegisterComponent } from './register/register.component';
 import { StartupComponent } from './startup/startup.component';
 import { StartHeaderComponent } from './start-header/start-header.component';
 import { StartProfileComponent } from './start-profile/start-profile.component';
+import { ViewInvestorComponent } from './view-investor/view-investor.component';
+import { InvheaderComponent } from './invheader/invheader.component';
+import { InvprofileComponent } from './invprofile/invprofile.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { StartProfileComponent } from './start-profile/start-profile.component';
     RegisterComponent,
     StartupComponent,
     StartHeaderComponent,
-    StartProfileComponent
+    StartProfileComponent,
+    ViewInvestorComponent,
+    InvheaderComponent,
+    InvprofileComponent
   ],
   imports: [
     BrowserModule,

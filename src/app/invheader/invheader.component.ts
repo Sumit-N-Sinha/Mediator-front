@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { StartupService } from '../startup/startup.service';
 
 @Component({
-  selector: 'app-start-header',
-  templateUrl: './start-header.component.html',
-  styleUrls: ['./start-header.component.css']
+  selector: 'app-invheader',
+  templateUrl: './invheader.component.html',
+  styleUrls: ['./invheader.component.css']
 })
-export class StartHeaderComponent implements OnInit {
+export class InvheaderComponent implements OnInit {
 
   constructor(private startupService : StartupService,
     private router : Router){ }
